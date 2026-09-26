@@ -5,6 +5,7 @@ import type {
   EmployeeSummary,
   InsightsResponse,
   MatchResult,
+  NextActionsResponse,
   RoiAssumptions,
   RoleFit,
   RoleSummary,
@@ -63,6 +64,8 @@ export const api = {
     }),
 
   getInsights: () => request<InsightsResponse>("/insights"),
+
+  getNextActions: () => request<NextActionsResponse>("/next-actions"),
 
   skillGap: (employeeId: string, roleId?: string) =>
     request<{ report: SkillGapReport }>(`/skill-gap/${employeeId}${roleId ? `?roleId=${roleId}` : ""}`),

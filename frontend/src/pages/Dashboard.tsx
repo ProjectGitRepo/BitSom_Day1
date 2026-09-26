@@ -6,6 +6,7 @@ import { api } from "../lib/api";
 import type { DashboardSummary } from "../types";
 import PageHeader from "../components/PageHeader";
 import AgentInsights from "../components/AgentInsights";
+import NextActions from "../components/NextActions";
 import { status, sequentialBlue, ink } from "../lib/colors";
 
 function KpiCard({ icon: Icon, label, value, hint }: { icon: typeof Users; label: string; value: string | number; hint: string }) {
@@ -41,6 +42,8 @@ export default function Dashboard() {
         title="Internal talent, at a glance"
         description="A single view across employee profiles, resumes, certifications, project records, manager feedback, and LMS history."
       />
+
+      <NextActions />
 
       <AgentInsights />
 

@@ -242,3 +242,16 @@ export interface InsightsResponse {
   hiddenGems: HiddenGemInsight[];
   benchPressure: BenchPressureInsight[];
 }
+
+export interface NextAction {
+  priority: number;
+  title: string;
+  detail: string;
+  category: "retention" | "mobility" | "hiring" | "general";
+}
+
+export interface NextActionsResponse {
+  actions: NextAction[];
+  source: "rule-based";
+  generatedAt: string;
+}

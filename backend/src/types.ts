@@ -173,6 +173,19 @@ export interface BenchPressureInsight {
   headline: string;
 }
 
+export interface NextAction {
+  priority: number;
+  title: string;
+  detail: string;
+  category: "retention" | "mobility" | "hiring" | "general";
+}
+
+export interface NextActionsResponse {
+  actions: NextAction[];
+  source: "rule-based";
+  generatedAt: string;
+}
+
 export interface RoiAssumptions {
   costPerExternalHire: number;
   costPerLearningHour: number;

@@ -117,6 +117,14 @@ starts flowing through it, rather than a one-time import that goes stale.
 - **Insights Engine** (`services/insights.ts`) — flight-risk scoring, cross-department
   "hidden gem" detection, and per-role bench-pressure alerts, surfaced on the Overview
   dashboard as "what your agents found today."
+- **Next Actions** (`services/nextActions.ts`) — the connective layer on top of the
+  Insights Engine: synthesizes flight risk, hidden gems, and bench pressure into a short,
+  prioritized "what to do today" list, surfaced above everything else on the Overview
+  dashboard. Its one genuinely cross-referenced move is noticing when the *same person*
+  is both a flight risk and a hidden gem for an understaffed role — a stronger, more
+  specific signal than either fact alone. Rule-based and deterministic like the rest of
+  the build; a generative model could write more fluid prose over these same facts
+  later, but the prioritization itself doesn't need one.
 - **Analytics** (`routes/dashboard.ts`) — org-wide coverage and skill-supply rollups.
 
 ## Competitive grounding

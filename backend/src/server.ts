@@ -9,6 +9,7 @@ import dashboardRouter from "./routes/dashboard.js";
 import systemSourcesRouter from "./routes/systemSources.js";
 import insightsRouter from "./routes/insights.js";
 import skillsRouter from "./routes/skills.js";
+import nextActionsRouter from "./routes/nextActions.js";
 
 const app = express();
 const PORT = process.env.PORT ? Number(process.env.PORT) : 4000;
@@ -27,6 +28,7 @@ app.use("/api/dashboard-summary", dashboardRouter);
 app.use("/api/system-sources", systemSourcesRouter);
 app.use("/api/insights", insightsRouter);
 app.use("/api/skills", skillsRouter);
+app.use("/api/next-actions", nextActionsRouter);
 
 app.listen(PORT, () => {
   console.log(`TalentIQ backend running at http://localhost:${PORT}`);
