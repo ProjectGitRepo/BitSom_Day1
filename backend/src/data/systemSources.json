@@ -1,0 +1,62 @@
+[
+  {
+    "id": "sys-hris",
+    "name": "Workday",
+    "category": "Employee Profiles & Org Data",
+    "description": "Core HR system of record — employee profiles, departments, tenure, and location.",
+    "status": "connected",
+    "syncFrequency": "Daily",
+    "recordsSynced": 95,
+    "lastSyncedAt": "2026-09-25T06:00:00.000Z"
+  },
+  {
+    "id": "sys-ats",
+    "name": "Greenhouse",
+    "category": "Resumes & Certifications",
+    "description": "Original resumes and parsed certifications from hiring and internal mobility applications.",
+    "status": "connected",
+    "syncFrequency": "Daily",
+    "recordsSynced": 187,
+    "lastSyncedAt": "2026-09-25T06:00:00.000Z"
+  },
+  {
+    "id": "sys-pm",
+    "name": "Jira + Confluence",
+    "category": "Project Records",
+    "description": "Project history, delivery roles, and shipped work used as evidence for capability mapping.",
+    "status": "connected",
+    "syncFrequency": "Every 6 hours",
+    "recordsSynced": 214,
+    "lastSyncedAt": "2026-09-25T12:00:00.000Z"
+  },
+  {
+    "id": "sys-perf",
+    "name": "Lattice",
+    "category": "Manager Feedback",
+    "description": "Performance review cycles, ratings, and manager comments.",
+    "status": "connected",
+    "syncFrequency": "Weekly",
+    "recordsSynced": 142,
+    "lastSyncedAt": "2026-09-22T09:00:00.000Z"
+  },
+  {
+    "id": "sys-lms",
+    "name": "Cornerstone LMS",
+    "category": "Learning & Development",
+    "description": "Course completions and learning hours used to plan and track reskilling.",
+    "status": "connected",
+    "syncFrequency": "Daily",
+    "recordsSynced": 268,
+    "lastSyncedAt": "2026-09-25T06:00:00.000Z"
+  },
+  {
+    "id": "sys-skills",
+    "name": "Skills Taxonomy Service",
+    "category": "Skills Mapping Engine",
+    "description": "Canonical skill definitions and role-to-skill requirements used by the matching engine.",
+    "status": "connected",
+    "syncFrequency": "Real-time",
+    "recordsSynced": 39,
+    "lastSyncedAt": "2026-09-26T04:00:00.000Z"
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "id": "role-pm",
+    "title": "Product Manager",
+    "department": "Product",
+    "requiredSkills": [
+      { "name": "Requirement Gathering", "minLevel": 3, "weight": 3 },
+      { "name": "Product Roadmapping", "minLevel": 3, "weight": 3 },
+      { "name": "Stakeholder Management", "minLevel": 3, "weight": 2 },
+      { "name": "User Research", "minLevel": 2, "weight": 2 },
+      { "name": "Backlog Prioritization", "minLevel": 3, "weight": 2 },
+      { "name": "Go-To-Market Strategy", "minLevel": 2, "weight": 1 }
+    ],
+    "evidenceKeywords": [
+      "requirement gathering", "gathered requirements", "product roadmap", "created a roadmap",
+      "managed stakeholders", "stakeholder alignment", "prioritized the backlog", "backlog prioritization",
+      "go-to-market", "user research", "customer interviews", "defined the vision", "led the launch",
+      "cross-functional", "wrote the PRD", "product requirements document"
+    ],
+    "recommendedCourses": [
+      { "course": "Product Management Fundamentals", "skill": "Requirement Gathering", "hours": 12 },
+      { "course": "Roadmapping & Prioritization", "skill": "Product Roadmapping", "hours": 10 },
+      { "course": "Stakeholder Management Masterclass", "skill": "Stakeholder Management", "hours": 8 },
+      { "course": "User Research Foundations", "skill": "User Research", "hours": 9 }
+    ]
+  },
+  {
+    "id": "role-ai-eng",
+    "title": "AI Engineer",
+    "department": "Engineering",
+    "requiredSkills": [
+      { "name": "Python", "minLevel": 4, "weight": 3 },
+      { "name": "Machine Learning", "minLevel": 3, "weight": 3 },
+      { "name": "Deep Learning", "minLevel": 3, "weight": 3 },
+      { "name": "MLOps", "minLevel": 2, "weight": 2 },
+      { "name": "Model Deployment", "minLevel": 2, "weight": 2 },
+      { "name": "Data Engineering", "minLevel": 2, "weight": 1 }
+    ],
+    "evidenceKeywords": [
+      "trained a neural network", "built a machine learning pipeline", "deployed a model to production",
+      "fine-tuned a model", "prompt engineering", "computer vision", "natural language processing",
+      "built an ml pipeline", "model monitoring", "feature engineering", "trained and deployed",
+      "deep learning", "llm", "built a recommendation engine", "mlops pipeline"
+    ],
+    "recommendedCourses": [
+      { "course": "Applied Machine Learning", "skill": "Machine Learning", "hours": 20 },
+      { "course": "Deep Learning Specialization", "skill": "Deep Learning", "hours": 30 },
+      { "course": "MLOps in Production", "skill": "MLOps", "hours": 16 },
+      { "course": "Model Deployment with Docker & Kubernetes", "skill": "Model Deployment", "hours": 14 },
+      { "course": "Python for Data Science", "skill": "Python", "hours": 12 }
+    ]
+  },
+  {
+    "id": "role-ds",
+    "title": "Data Scientist",
+    "department": "Data",
+    "requiredSkills": [
+      { "name": "Python", "minLevel": 3, "weight": 2 },
+      { "name": "Statistical Analysis", "minLevel": 3, "weight": 3 },
+      { "name": "Machine Learning", "minLevel": 3, "weight": 2 },
+      { "name": "SQL", "minLevel": 3, "weight": 2 },
+      { "name": "Data Visualization", "minLevel": 2, "weight": 2 }
+    ],
+    "evidenceKeywords": [
+      "statistical analysis", "hypothesis testing", "built a dashboard", "data visualization",
+      "predictive model", "a/b testing", "regression analysis", "exploratory data analysis",
+      "sql queries", "data pipeline", "insights to leadership"
+    ],
+    "recommendedCourses": [
+      { "course": "Statistics for Data Science", "skill": "Statistical Analysis", "hours": 15 },
+      { "course": "Applied Machine Learning", "skill": "Machine Learning", "hours": 20 },
+      { "course": "Advanced SQL", "skill": "SQL", "hours": 8 },
+      { "course": "Data Storytelling & Visualization", "skill": "Data Visualization", "hours": 10 }
+    ]
+  },
+  {
+    "id": "role-devops",
+    "title": "DevOps Engineer",
+    "department": "Engineering",
+    "requiredSkills": [
+      { "name": "Cloud Architecture (AWS)", "minLevel": 3, "weight": 3 },
+      { "name": "Kubernetes", "minLevel": 3, "weight": 3 },
+      { "name": "CI/CD", "minLevel": 3, "weight": 2 },
+      { "name": "Infrastructure as Code", "minLevel": 2, "weight": 2 },
+      { "name": "Monitoring & Observability", "minLevel": 2, "weight": 1 }
+    ],
+    "evidenceKeywords": [
+      "ci/cd pipeline", "infrastructure as code", "terraform", "kubernetes cluster",
+      "automated deployment", "reduced deployment time", "on-call rotation", "incident response",
+      "monitoring and alerting", "cloud migration", "container orchestration"
+    ],
+    "recommendedCourses": [
+      { "course": "AWS Certified Solutions Architect Prep", "skill": "Cloud Architecture (AWS)", "hours": 20 },
+      { "course": "Kubernetes in Production", "skill": "Kubernetes", "hours": 16 },
+      { "course": "CI/CD Pipelines with GitHub Actions", "skill": "CI/CD", "hours": 8 },
+      { "course": "Terraform & Infrastructure as Code", "skill": "Infrastructure as Code", "hours": 10 }
+    ]
+  },
+  {
+    "id": "role-ux",
+    "title": "UX Designer",
+    "department": "Design",
+    "requiredSkills": [
+      { "name": "UX Research", "minLevel": 3, "weight": 3 },
+      { "name": "Wireframing", "minLevel": 3, "weight": 2 },
+      { "name": "Interaction Design", "minLevel": 3, "weight": 2 },
+      { "name": "Usability Testing", "minLevel": 2, "weight": 2 },
+      { "name": "Design Systems", "minLevel": 2, "weight": 1 }
+    ],
+    "evidenceKeywords": [
+      "usability testing", "user interviews", "wireframes", "interaction design",
+      "design system", "prototyped", "user flows", "accessibility audit", "redesigned the onboarding"
+    ],
+    "recommendedCourses": [
+      { "course": "UX Research Methods", "skill": "UX Research", "hours": 12 },
+      { "course": "Wireframing & Prototyping in Figma", "skill": "Wireframing", "hours": 8 },
+      { "course": "Interaction Design Principles", "skill": "Interaction Design", "hours": 10 },
+      { "course": "Building Design Systems", "skill": "Design Systems", "hours": 9 }
+    ]
+  },
+  {
+    "id": "role-backend",
+    "title": "Backend Engineer",
+    "department": "Engineering",
+    "requiredSkills": [
+      { "name": "Java", "minLevel": 3, "weight": 2 },
+      { "name": "API Development", "minLevel": 3, "weight": 3 },
+      { "name": "System Design", "minLevel": 3, "weight": 3 },
+      { "name": "Database Design", "minLevel": 2, "weight": 2 },
+      { "name": "Microservices", "minLevel": 2, "weight": 2 }
+    ],
+    "evidenceKeywords": [
+      "designed the system architecture", "built rest apis", "microservices architecture",
+      "database schema", "scaled the service", "reduced latency", "api development",
+      "distributed systems", "event-driven architecture"
+    ],
+    "recommendedCourses": [
+      { "course": "System Design Interview Prep", "skill": "System Design", "hours": 14 },
+      { "course": "Building Microservices", "skill": "Microservices", "hours": 12 },
+      { "course": "Database Design & Optimization", "skill": "Database Design", "hours": 10 },
+      { "course": "RESTful API Design", "skill": "API Development", "hours": 8 }
+    ]
+  },
+  {
+    "id": "role-ba",
+    "title": "Business Analyst",
+    "department": "Business",
+    "requiredSkills": [
+      { "name": "Business Analysis", "minLevel": 3, "weight": 3 },
+      { "name": "Requirement Gathering", "minLevel": 3, "weight": 3 },
+      { "name": "SQL", "minLevel": 2, "weight": 2 },
+      { "name": "Data Visualization", "minLevel": 2, "weight": 2 },
+      { "name": "Stakeholder Management", "minLevel": 2, "weight": 1 }
+    ],
+    "evidenceKeywords": [
+      "business requirements", "process improvement", "gap analysis", "requirement gathering",
+      "stakeholder workshops", "reporting dashboard", "cost-benefit analysis", "documented the process"
+    ],
+    "recommendedCourses": [
+      { "course": "Business Analysis Fundamentals", "skill": "Business Analysis", "hours": 12 },
+      { "course": "Advanced SQL", "skill": "SQL", "hours": 8 },
+      { "course": "Data Storytelling & Visualization", "skill": "Data Visualization", "hours": 10 }
+    ]
+  },
+  {
+    "id": "role-security",
+    "title": "Cybersecurity Analyst",
+    "department": "Security",
+    "requiredSkills": [
+      { "name": "Threat Modeling", "minLevel": 3, "weight": 3 },
+      { "name": "Penetration Testing", "minLevel": 3, "weight": 3 },
+      { "name": "Security Compliance", "minLevel": 2, "weight": 2 },
+      { "name": "Incident Response", "minLevel": 3, "weight": 2 },
+      { "name": "Network Security", "minLevel": 2, "weight": 2 }
+    ],
+    "evidenceKeywords": [
+      "threat modeling", "penetration test", "vulnerability assessment", "incident response",
+      "security audit", "compliance review", "remediated the vulnerability", "security posture"
+    ],
+    "recommendedCourses": [
+      { "course": "Certified Ethical Hacking Prep", "skill": "Penetration Testing", "hours": 24 },
+      { "course": "Threat Modeling in Practice", "skill": "Threat Modeling", "hours": 10 },
+      { "course": "Incident Response Fundamentals", "skill": "Incident Response", "hours": 12 },
+      { "course": "Security Compliance & Governance", "skill": "Security Compliance", "hours": 8 }
+    ]
+  }
+]
